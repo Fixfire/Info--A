@@ -16,7 +16,10 @@ int main(int argc, const char * argv[]) {
 	if((n%400) == 0)
 		bisestile = true;
 	
-	if (bisestile)
-			printf("L’anno %d è bisestile\n", n);
+	if (bisestile){
+		printf("L’anno %d è bisestile\n", n);
+	} else {
+		printf("L'anno %d non è bisestile\n", n);
+	}
 	return 0;
 }

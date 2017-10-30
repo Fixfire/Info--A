@@ -10,8 +10,8 @@ int main(int argc, const char * argv[]) {
 	// poiche:
 	// costo_ivato = costo_netto + costo * IVA
 	// costo_ivato = costo_netto * (1 +IVA ) = costo_netto 1.22
-	float costo_netto = costo_ivato/(1 + IVA);
-	float iva = costo_ivato - costo_netto;
+	costo_netto = costo_ivato/(1 + IVA);
+	iva = costo_ivato - costo_netto;
 	printf("costo netto: %f ; iva: %f\n", costo_netto, iva);
 	
 	return 0;

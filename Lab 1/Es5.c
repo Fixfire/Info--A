@@ -7,9 +7,9 @@ int main(int argc, const char * argv[]) {
 	long pot;
 	printf("Inserisci due numeri positivi:\n");
 	scanf("%d", &n);
-	scanf("%d", &n);
+	scanf("%d", &k);
 	
-	printf("\nLe potenze di %d sono: \n", n);
+	printf("\nLe prime %d potenze di %d sono: \n", k, n);
 	pot = n;
 	for (i=0; i<k; i++)
 	{
